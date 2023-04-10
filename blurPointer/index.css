@@ -1,0 +1,41 @@
+body{
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+}
+
+#blob{
+  background: linear-gradient(
+    to right,
+    aquamarine,
+    mediumpurple
+  );
+  animation: rotate 20s infinite;
+  height: 500px; 
+  aspect-ratio: 1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  border-radius: 50%;
+}
+
+#blur {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  backdrop-filter: blur(200px);
+}
+
+@keyframes rotate {
+  from {
+    rotate: 0deg;
+  }
+  50% {
+    scale: 1 1.5;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
