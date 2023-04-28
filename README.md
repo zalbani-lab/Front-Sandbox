@@ -10,7 +10,7 @@
   <p align="center">
     My sandbox to experiment with html, css and javascript
     <br />
-    <a href="https://Front-Sandbox.zalbani.dev"><strong>View Online »</strong></a>
+    <a href="https://front-sandbox.zalbani.dev"><strong>View Online »</strong></a>
     <br />
   </p>
   <hr/>
